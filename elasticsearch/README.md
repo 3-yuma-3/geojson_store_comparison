@@ -2,6 +2,7 @@
 ## oss images
 - [elasticsearch/elasticsearch-oss](https://www.docker.elastic.co/r/elasticsearch/elasticsearch-oss)
 - [kibana/kibana-oss](https://www.docker.elastic.co/r/kibana/kibana-oss)
+- 7系までしかないので古い
 
 ## install with docker
 - [Install Elasticsearch with Docker](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
@@ -21,3 +22,8 @@ container for service "es01" is unhealthy
     - `$ sysctl -w vm.max_map_count=262144`
 - wslでは `/etc/sysctl.conf` に `vm.max_map_count=262144` を書き込むだけでは不十分らしい
   - [Windows で Docker で Kibana を入れる](https://www.toyfish.blog/entry/2022/05/04/040025)
+
+## 動作確認
+- [国土数値情報ダウンロードサービス > 農業地域データ > 北海道 > 平成27年](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A12.html)
+- [GeoJSONのオープンデータをKibanaのマップに表示する](https://qiita.com/mkyz08/items/9dbae101dbaeaec087d1)
+  - この記事同様、文字化けした
