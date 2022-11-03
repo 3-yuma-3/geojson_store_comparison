@@ -1,2 +1,4 @@
-Elasticsearch 8.5 document
-https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html
+- Elasticsearch 8.5 document
+  - https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html
+- Kibana 8.5 document
+  - https://www.elastic.co/guide/en/kibana/current/introduction.html
