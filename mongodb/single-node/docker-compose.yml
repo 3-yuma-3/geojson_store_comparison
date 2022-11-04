@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo:6.0.2
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
