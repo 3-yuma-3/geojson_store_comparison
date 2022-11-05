@@ -1,0 +1,4 @@
+- [Get API](https://www.elastic.co/guide/en/elasticsearch/reference/8.5/docs-get.html)
+  - `$ sudo curl --cacert http_ca.crt -u elastic https://localhost:9200/a001010120160205/_doc/4ZnkQYQBMEA72mmxMsdz?pretty`
+- [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/8.5/search-search.html)
+  - `$ sudo curl --cacert http_ca.crt -u elastic "https://localhost:9200/a001010120160205/_search?pretty"`
