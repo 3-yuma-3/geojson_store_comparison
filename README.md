@@ -17,5 +17,12 @@
     - データの利用にあたって回答は必須ではありませんが、ご協力いただければ幸いです。
     - なお、ご報告に対して弊社から返信や許可・不許可を行うことは原則としてありません。
 
+## gdal
+- [GDAL documentation](https://gdal.org/index.html)
+  - [GDAL documentation » Vector drivers » PostgreSQL / PostGIS](https://gdal.org/drivers/vector/pg.html)
+- `$ docker pull osgeo/gdal:ubuntu-small-3.5.3`
+- [Use GDAL With Docker](https://tannergeo.com/2017/10/05/Use-GDAL-With-Docker.html)
+- [Using ogr2ogr to convert data between GeoJSON, PostGIS and Esri Shapefile](https://morphocode.com/using-ogr2ogr-convert-data-formats-geojson-postgis-esri-geodatabase-shapefiles/)
+
 ## その他
 - [GIS実習オープン教材](https://gis-oer.github.io/gitbook/book/)
