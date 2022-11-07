@@ -1,5 +1,7 @@
 - [postgis.net](https://postgis.net/)
-- [PostGIS 3.3.2dev マニュアル](https://postgis.net/docs/manual-3.3/postgis-ja.html)
+- [PostGIS 3.3.2dev Manual](https://postgis.net/docs/manual-3.3/)
+- [PostGIS 3.3.2dev マニュアル (postgis.net)](https://postgis.net/docs/manual-3.3/postgis-ja.html)
+- [PostGIS 3.3.0 マニュアル (http://cse.naro.affrc.go.jp/)](http://cse.naro.affrc.go.jp/yellow/pgisman/3.3.0/index.html)
 - [docker image postgis/postgis](https://registry.hub.docker.com/r/postgis/postgis)
   - Versions ( 2022-10-15 )
     - DockerHub image
